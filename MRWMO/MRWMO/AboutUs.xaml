@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#F9F9F9" 
+             x:Class="MRWMO.AboutUs">
+    <ContentPage.Content>
+       
+        <StackLayout HorizontalOptions="Center"   Orientation="Vertical">
+            <StackLayout BackgroundColor="Black"  Orientation="Horizontal" HeightRequest="200" >
+                <Image HorizontalOptions="CenterAndExpand"   Source="ic_splash_3.jpg" Aspect="Fill"></Image>
+            </StackLayout>
+            <ScrollView>
+                <StackLayout Orientation="Vertical"  Padding="10">
+                    <Label HorizontalTextAlignment="Center" FontAttributes="Bold"  Text="ඔබ සියල්ල අතහරින්න. එවිට ඔබට සියල්ලම ලැබේවි. සියල්ලම ඔබට ලැබෙන විට ඒ කිසිවක් ඔබට අවශ්‍ය නොවේ. මන්ද, ඔබ සියල්ල අනිත්‍ය වශයෙන් අවබෝධ කර ඇති නිසා."
+             FontSize="25" TextColor="#303030" FontFamily="AbhayaLibreB"
+              HorizontalOptions="CenterAndExpand"   />
+                    <Label Margin="0,10" LineBreakMode="WordWrap" HorizontalTextAlignment="Justify"  Text="මේ ලෝකයේ ධර්මය කියලා දෙයක් තියෙනවනම් අවබෝධ කරගන්න කර ගන්න තියෙන්නේ එකම එක දෙයයි. අනිත්‍ය කියන දෙය විතරයි. ඒ නිසා ශාස්ත්‍රී ලෝක ධාතු තිබ්බත්, බ්‍රහම්ම ලෝක තිබ්බත්, දිව්‍ය ලෝක තිබ්බත්, මනුස්ස ලෝකේ තිබ්බත්, ප්‍රේත ලෝකේ තිබ්බත්, තිරිසන් ලෝකේ තිබ්බත් අම්මා, තාත්තා, නංගි, මල්ලි, පුතා, දුව හිටියත් ඔය සියල්ල තිබ්බත් ඔය සියල්ලේ එකම ස්වභාවය අනිත්‍ය කියන ස්වභාවය විතරයි. එහෙනම් අනිත්‍ය කියන්නේ ධර්මයමයි."
+             FontSize="18" TextColor="#555555" FontFamily="AbhayaLibreM"
+                 />
+                    <BoxView Margin="0,15,0,0" BackgroundColor="#f3f3f3" HeightRequest="1"></BoxView>
+                    <StackLayout Orientation="Horizontal">
+                        <Button  Clicked="Button_Clicked" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"   Text="Rate this app" FontSize="15" TextColor="#303030" FontFamily="OpenSans" />
+                    </StackLayout>
+                    <BoxView  BackgroundColor="#f3f3f3" HeightRequest="1"></BoxView>
+
+                </StackLayout>
+            </ScrollView>
+           
+           
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

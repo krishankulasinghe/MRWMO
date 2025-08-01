@@ -1,0 +1,1839 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <book name="book1" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>ඔබත් සොබාදහමත් අතර වෙනසක් නොතබන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>ගිහි වත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>නිදහස් පරිසරය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>අන්තිමයා වීම අගනේය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>හාල්මැස්‌සාගෙනුත් කමටහනක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>මාරයාගේ පළඳනාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මාර ප්‍රතිපදාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>කුසගින්නද ආශිර්වාදයකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>සැබෑම ප්‍රත්‍යවේක්‍ෂාව යනු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>අපි යන්නේ මොන පාරේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>ඇගේ කඳුළ ළඟ සිත නැවතුණි නම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>දුක්‌ දෙන මිතුරා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>අත්වැල් බැඳගෙන පිහිනිය නොහැක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>පිරිත් පොත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>රැවුල සහ කණ්නාඩිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>පොඩි හාමුදුරුවන්ට ස්ථාවර අනාගතයක්</Name>
+        </Chapter>
+    </book>
+    <book name="book2" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>බුදුරජුන්ගෙන්ම කමටහන් ලබාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>රීකන්ඩිෂන් කරනු වෙනුවට අවබෝධයෙන් දකිමු මේ කය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>කය දුවවා වැඩක්‌ වේද සිත නතර කරනු බැරිනම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>ආචාර වෙඩිමුර නැති යුද වීරයා වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>බ්‍රොයිලර් ජීවිතය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>සෑම තරාතිරමකම පාලකයන් වෙත කරුණාවෙනි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>සයුරු සැපේ වේ මේ සා දෝසා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ප්‍රේත ලෝකයේ මනාලිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>දැවෙන සමක්‌ – නිවෙන මගක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>නිල මැස්‌සයි ඔබයි දෙන්නම දැන් සමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>කුලියට ගත් එළිය කුමට?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>මේ ලොව පිරිසිදුම තාක්‍ෂණයයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>අනේ ඔබ එවන් පාලකයකු වේ නම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>ඇත් සවිය පරදන අතහැරීමේ අවිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>අභියෝගය අවබෝධයක්‌ කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>ගමන ඉවරත් නොමැති, යන ගමනකුත් නොමැති, තුන් කලට වහල් නිති, ඔබත් ඔරලෝසු කටුවක්ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>නාලාගිරි අදත් වඩියි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>මේ කැඩපතින් ඔබේ මුහුණත් බලන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>යක්‍ෂයා නොව ධර්මය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>හොඳ තැන් සොයමින් යනවා වෙනුවට හැම තැනකම ඔබ සොඳින් සිටිනු මැන</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>සිහියෙන් බලන්න දහම ඔබ අසලමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>අපායේ උපතක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>ආශාවේ වියරුව – කැමැත්තේ මරලතෝනිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>සයනයේ ප්‍රේතිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>සංසාරයක්‌ පුරා වැරැදුණු තැන</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>කොහොමද…? ක්‍රෝධයේ අස්‌වැන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>මියගිය ඥාතියාට ඔබ සැබැවින්ම හිතවත්ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>අවසාන මෙහෙයුම</Name>
+        </Chapter>
+    </book>
+    <book name="book3" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>කතාව දිග්ගැසුනොත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>එක්‌කෝ මරණය නැති නම් සතර අපායෙන් මිදීම</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ජීවිතය යනු ඉලක්‌කම් ගොඩක්‌ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>සම්බුදු සරණ විකුණනව ද මාරයට?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>ග්‍රහයන්ගේ ග්‍රහණයට හසු වූ අසරණයන්ට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>දුක මරන්න නැතිනම් ඔබ මැරුණත් දුක නොමැරෙයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>සංස්‌කාරයන්ට අනුව ජීවිතය නොදැක්‌කොත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>පෙර ආත්මයේ නතර කළ තැනින් අරඹන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>පිං පව් එනවා අපි පසු පස්‌සේ – 1</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>පිං පව් එනවා අපි පසු පස්‌සේ – 2</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>හැංගි හැංගි වෙස්‌ බැන්ඳත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>බලන්න ඊර්ෂ්‍යාවේ වෛරයේ රඟ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>සත්තයි, ආයේ කිසිදවසක වරදින්නේ නැහැ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>දෙමාපියන් වෙනුවෙන් දරුවන්ට, දරුවන් වෙනුවෙන් දෙමාපියන්ට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>සමාධියෙන් දුටු අකුසල් කන්දක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>ගස්‌ නගින දෙවියකු වී කුමට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>දානය මහත්ඵල මහානිශංස වීමට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>අකුසලයට පොකුරු ගසන්නට ඉඩ නො දෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>ගොනා පසු පස නඟුල එන්නා සේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>හිංසාවේ ආදීනව තවදුරටත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>මෛත්‍රියත් පරෙස්‌සමින්!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>මාරයා කුළුමීමකු ලෙසින් පැමිණියේය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>මාරයා තවත් මුහුණකින්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>‘මම’ නැමැති කුණු ගොඩට තවත් කසල එකතුවීමට ඉඩනොදෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>ලොව සුන්දරම මරණයට ඔබටද හිමිකමක්‌ ඇත</Name>
+        </Chapter>
+    </book>
+    <book name="book4" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>සියළු සංස්කාරයෝ අනිත්‍යය, අප්‍රමාදී වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>අශ්‍රද්ධාවේ අකීකරුකමට, හොඳම ඔසුව කල්‍යාණ මිත්‍ර ආශ්‍රයයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>සීලය අර්ථවත් වීමටනම්, ඊට ඉහළින් ප්‍රඥාව තිබිය යුතුමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>සංස්කාරයන්ගේ ඵලයක් වූ දෙවියන්, කොහොමද අනුනගේ සංස්කාරයන් වෙනස් කරන්නේ?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>ජීවිතයත්, ධර්මයත් එකක් බවට පත්කොට ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ඔබ හෙලන සෑම කඳුලක්ම, සංසාරයේ ඔබ අනුනට දුන් කඳුලක්මයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>උතුම් රහත්ඵලයට පත්වෙනතුරු, තේරුම් නොගත් ජීවිතයේ යථාර්ථය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>හිංසාවෙන් විමුක්තිය සොයන මිනිස්සු, සුගතියෙන් ඈතට යනවා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>සීලයෙන් බැහැර වූ මනුශ්‍යයා රත් පැහැයට හුඟාක් කැමතියි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>පින්වත් ඔබ ලෝකයෙන් හුදකලා වෙන්න. එම හුදකලාව තුල සිටිමින් ලෝකය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>දානය වැරදිලාවත් අපේ ගෙදරට ආවොත් බල්ලා ලිහනවා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>උභතෝභාගවිමුක්ත රහතන්වහන්සේලා ලෝකයේ වැඩ සිටිනවාද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ලෝකය ගමන් කරන්නේ මනුෂ්‍යයා තුල මෘගසංඥාව සකස්වෙන දිශාවටයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>තමා තුලින්ම කල්‍යාණ මිත්‍රයා මතුකොට ගන්න දක්ෂවෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>තෙරුවන් කෙරෙහි ශ්‍රද්ධාව තුලින් ධර්ම මාර්ගය කෙරෙහි වීර්ය්‍ය මෝදු කොටගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>අශ්‍රද්ධාව තුලින් පෝෂනය වන වීර්ය්‍ය, ක්‍රියාත්මක භාවයෙන් බලවත් වෙනවා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>සංස්කාරයන්ට අදාලවයි ඔබේ දැනීම් සකස් වෙන්නේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>දානයේ ආනිසංශ බෞද්ධ අබෞද්ධ කාටත් පොදුයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>ක්‍රමානුකූලව පල්ලම් බහින බෞද්ධ මනෝභාවය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>නියඟයත්, ගංවතුරත්, දුස්සීලභාවයේම ඵලයන්</Name>
+        </Chapter>
+    </book>
+    <book name="book5" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>රාත්‍රී කාලයට දුම් දමනා තුඹස, දහවල් කාලයට ගිනි ගන්නවා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>රෝගියා තුළින් දේවදූතයෙක් මතුකොට ගන්න දක්ෂ වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>විෂඝෝර සර්පයින්ට ඔබත් කිරි පොවනවා ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>යහපත් රාත්‍රියක් තුළින්, යහපත් දිනයක් උදාකොට ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>වැරදි උපදේශයන්, ඔබට වැරැද්දටමයි යොමු කරවන්නේ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ආශ්වාදයට අතවනන, පාපකාරී සිතුවිලිවලින් බැහැර වෙන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>සම්මත විවාහයෙන් පීඩාවට පත්වෙද්දී, අසම්මත සම්බන්ධතාවයන්ට යොමු වෙන්න එපා...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>අනුන්ව පරික්ෂා කිරීමට පෙරාතුව, තමා තමාව පරික්ෂා කොට ගන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>දිව්‍ය ලෝකයේත් පන්ති භේදය තිබෙනවා...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>මහා සාගරය සිඳී යනවා සේ ඔබේ දුක නම් සිඳී යන්නේ නැහැ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>දෙවියනුත් පීඩාවට පත්වෙද්දී, මනුශ්‍යයෝ ගැන කුමන කථා ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>සමාජයේ ඇස් වහලා, ඔබගේ විදර්ශනා ඇස තියුණු කොට ගන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>මෛත්‍රී භාවනාවේ ආනිශංස, අනිත්‍ය වශයෙන් දකින්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>අකමැති දේවල් දකින්න ලැබෙන්නේ අපේ අකුසල් නිසාමයි...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>අනුන් ඔබට මුරුංගා අත්තේ තැබුවත්, ඔබ ගහෙන් බසින්න දක්ෂ වෙන්න ඕනේ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>නිදා ගැනීමට පෙර නිදාගැනීමේ ඉරියව්ව ගැන සිතන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>දරුවාගේ දඟකාරකම, ධර්මයේ ඇසෙන් දකින්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>ආර්ථික විද්‍යාව තුලින්, ආයුෂ, වර්ණය, සැපය, බලය සොයන පින්වතුන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>දෙදෙනෙකුගේ රණ්ඩුවක් තුළිනුත් ධර්මයක් අසන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>මරණය ඉදිරියේ හුදකලා නොවන්න...</Name>
+        </Chapter>
+    </book>
+    <book name="book6" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>මේ දුකම කියන දහමක්‌ ද? දුකෙන් මිදෙන දහමක්‌ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>දුක සැප පෙරළෙන සංස්‌කාර</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>මට අවශ්‍ය වූයේ බුදුරජාණන් වහන්සේව තෘප්තිමත් කිරීම පමණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>පිංවත් ඔබත් මෙතැනට එන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>මේ මුළු ලෝකයම ඔහුට කමටහනක්‌ වූ මෙවලමකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ඔබ ඔය සුරතල් කරන්නේ සතර අපායයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මේ දුකම දැයි සිහියෙන් බලන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ආදීනව නොපෙනෙන ආශ්වාදයද ආදරය?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>මරණ බියෙන් තොර මරණයක්‌ උදෙසා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>ගුරුකමේ රඟ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>ප්‍රේතානුස්‌සතිය ද? දේවතානුස්‌සතිය ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>තවත් පුතුන් කුමට පතන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>පොඩි කමට කළත් ‘පව’ පොඩි නැත පුතුනේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>ප්‍රඥාවේ පහන් සිළෙන් රැයෙහි අඳුර දුරුකරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>ශීලය සැබැවින්ම කුමක්‌ උදෙසා ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>වන්දනාවක සැඟවුණු රහස</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>මේ අකුසලයට පොළී වෙන ලෝකයයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>පොඩි දෙයක්‌ ආහාරයට ගන්න ලොකු දෙයක්‌ දන්දෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>පව පහුරුගාමින් නොසිට කුසල නිධිය මතුකරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>ඔබ ඔය ඊර්ෂ්‍යා කරන්නේ සංස්‌කාරවලට බව දැනගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>ඔබ විනෝදය ලෙස දකින්නේ තෘෂ්ණාවේ ගින්දරයි!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>ඔබේ භෂ්මාවශේෂ පූජනීයත්වයට පත්කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>අහසට පොළොවට දෙස්‌ දී කුමකට?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>ඔබේ ඔය මහන්සිය හිස්‌ අතින් මැරෙන්න ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>ස්‌ථාවර සාමයක්‌ උදෙසා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ඇයි ඔබ පිංවන්ත නැති ද?</Name>
+        </Chapter>
+    </book>
+    <book name="book7" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>ඔබේ තරුණ ලස්‌සන රුව කවුද රැගෙන ගියේ?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>බලාගෙනයි! දුකට පාර කියන ඒජන්තවරු එමටයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>බුදුරජුන්ගෙන් පාර නෑසූ අවාසනාවන්තිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>බෞද්ධ පිංවතුන්ගේ 'ජනප්‍රිය පැනය'</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>මෛත්‍රිය දෘෂ්ටිය අනුභවකර මස්‌ මාංශ නොකෑමෙන් පලක්‌ වේද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>මස්‌ මාංශ අනුභව කරන කුස සුසානයක්‌ නම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මාංශයට ඇලී, මාංශයට ගැටී තවත් මස්‌ ගොඩක්‌ දරාගෙනම ඉපදෙමු ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ඔබ නැවත නැවතත් ‘අ’ යන්නම ඉගෙන ගන්නේ ද ?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>අතීත ශක්‌තීන් අවබෝධයෙන් ආයෝජනයට ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>සිත තැන්පත් නොවීමත් භාවනාවට ආයෝජනයක්‌ කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>අකුසලය යටපත් කරන්න අමනුෂ්‍යයා අනිත්‍ය ලෙස දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>භවය යනු කඳුළු සාගරයකැයි නුවණින් දකින දා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>දැකිය යුත්තේ සසර බියමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>භාවනාවට පෙර මේ ගැනත් සිතන්න. සතර අපා දුක්‌ නොවින්ද කව්රුනම් ලොවේ සිටිත් ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>මෛත්‍රී භාවනාව කියන්නේද අතහැරීමකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>කමටහන මගහැර කවරනම් භාවනාවක්‌ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>ඔබ ඔය ද්වේශ කරන්නේ ඔබගේම මෝහයට නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>හිංසාවේ රාත්‍රිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>දෙවියන්ද වඳින පින් බිමයි මේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>අවසාන අවස්ථාව</Name>
+        </Chapter>
+    </book>
+    <book name="book8" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>නිමාවක්‌ නැති ලොවක අදට වඩා හොඳ හෙටක්‌ කොයි ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>ප්‍රඥාවේ ඇසින් අත්දුටු ලොව්තුරා ධර්මයේ ආශ්චර්ය්‍ය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ඔබත් අනෙක්‌ අයත් අතර නැතිනම් වෙනසක්‌ දුකෙන් පිරුණු සසර කතර සදා උරුමයක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>සංසාරයේ කීවරක්‌ නම් ඔබ ඔතැනම මිහිදන්ව ඇත් ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>ඔබේ අතීත භව ගමනේ කැඩපතක්‌ ඔබ ඉදිරියේ ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>අධර්මයේ කාලය අති දීර්ඝයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මේ ශාසනයේ අවසාන බැබලීමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>මතු සංසාරේ ඔබේ මළකඳන් නුවනින් දැක්‌කොත් දස්‌කමකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>ඔබේ ඊළඟ ආත්මයේ නිමැවුම්කරු ඔබමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>මැරෙන මොහොතේ මොකද වෙන්නේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>කළ්‍යාණ මිත්‍රයකු නොමැතිනම් තනිව සිටීමත් වටියි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>හොරකම සුළුවෙන් තැකුවට ලෙහෙසිද එය පලදෙන විට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ලෝකය අසාධාරණයක්‌මයි ඔබට සාධාරණය ඔබ තුළමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>අහෝ! තිරිසන් අපාය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>අතහැරීමක ආරම්භය සහ අල්ලාගැනීමක අවසානය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>ක්‍රෝධයේ කළු පැහැය සහ ශීලයේ රන්පැහැය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>කළණ මිතුරුබවේ – අගය නිමක්‌ නොවේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>මේ බිහිසුනු සිර දඬුවමින් නිදහස්‌ නොවුනහොත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>ආරක්‌ෂාවීමේ අරුත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>උතුරේ ත්‍රස්‌තවාදයට වඩා භයානක ත්‍රස්‌තවාදයක්‌ ඔබ ඉදිරියේ ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>ඔය කඩුල්ල පැනගන්න ඇයි බැරි?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>ලෝකය අයිති කාටද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>තාක්‍ෂණයට නොපෙනෙන ප්‍රඥාවේ විද්‍යාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>දිව්‍ය ලෝකෙ සැපයි. ඒත්?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>සැපයෙන් එහා ගිය නිදහස්‌වීමක හිමිකරුවෙකි ඔබ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ඵලය ගැන දුක්‌වීම පසෙක තබා හේතුව ගැන සොයන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>පඬුර බෙල්ලේ බැඳගන්න ශීලයේ කොඩිය අතට ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>මස්‌ මාළුවල නොවෙයි කෙළෙස්‌වල පිළි ගඳෙන් මිදෙන්න</Name>
+        </Chapter>
+    </book>
+    <book name="book9" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>‘ඔබ වහන්සේ රහත් වෙලාද?’ කියලා එක්‌ භික්‍ෂුවක්‌ විමසුවා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>අවබෝධය යනු නිහඬතාවක්‌ මිස සටන් පාඨයක්‌ නොවේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ලෝකයේ ස්‌වභාවයෙන් ලෝකය තිබුණාදෙන්. පිංවත් ඔබ ලෝකය උපේක්‍ෂාවෙන් පිළිගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>අනිත්‍යයත්, අතහැරිමත් යනු අන්තවාදයක්‌ නොවේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>විවෘත වූ දහමක කුමන ප්‍රශ්න ද? කුමන පිළිතුරු ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>මේ ආත්මයේ පිංකම්වලින් පමණක්‌ යැපෙන්නට හිතන්න එපා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>සිනහවක්‌ දන් දෙන්න බැරි ඔබ සෝවාන් වීමට කලබල නොවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ධර්මයට වැරදි අර්ථකථන දෙන්නේ කෙලෙස්වල ගොරෝසුකමින්මය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>ඔබේ ඥාති පරම්පරාවේ සමූහ ජායාරූපයක්‌ හදාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>රහතන් වහන්සේ යනු දුවන ලෝකය තුළ නො දුවන චරිතයකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>බැඳීමක්‌ නැති ඇසුරක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>කඳුළකට සවන්දී කඳුළු සාගරයක්‌ නිවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>දුර්වල වූ සිල්පදය ගැන වැළපෙනු වෙනුවට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>කාවෙක්‌ කියන කථාවක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>අරටුව හඳුනා ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>සුළු දුකට ගැටී මහ දුකක් වැළඳගන්නා මෝඩකම (සියදිවි නසාගැනීම)</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>ඔබ යක්‍ෂයා ඉදිරියේ දෙවියෙක්‌ ම වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>දරුවාගේ පින අවදි කරවන්න – කඳුළු සාගරයක් දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>ඔබ මැරි මැරී උපදින්නේ මේ සසර බිය විශ්වාස නොකළ නිසාමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>ඉසුරු සොයා යන්න ද කල්පනාව? බලන්න භික්‍ෂුවගේ සෞභාග්‍යය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>සැපයට අධිපති දුකේ මැවුම්කරු – ගෙනයයි ඔබ තව තැනකට නිරතුරු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>මම පැවිද්ද ඉල්ලූවේ මහා කාශ්‍යප මහ රහතන් වහන්සේගෙන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>රහතන් වහන්සේලා, රහත් මෙහෙණින් වහන්සේලා සමඟම කාලය ගත කළෙමි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>‘අහිගුණ්‌ඨක හාමුදුරුවො’ කියන යෙදුම මට අපූරුවට ගැලපුණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>චීවරය සෝද සෝද මඩේ දැමීම නවතමු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>‘තෙරුවන් සරණ මිස මට අන් සරණක්‌ නැහැ’ය යන සිංහනාදය කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>තෘෂ්ණාවෙන් තෙත් නොවුණු සතිය ම ය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>සීලය ආශ්වාදයේ ගොදුරක්‌ නොවිය යුතුය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>29</Id>
+            <Name>සීලය යනු සමාධියට සේන්දුවීමේ මාර්ගය පමණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>30</Id>
+            <Name>මේවා ඇත්තේ විඳින්න, බැඳෙන්න නොව මිදෙන්නය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>31</Id>
+            <Name>ඒවා ඒවායේ ස්‌වභාවයෙන් තිබුණා, භික්‍ෂුව භික්‍ෂුවගේ ස්‌වභාවයෙන් සිටියා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>32</Id>
+            <Name>අප කළ දෙයම අප පසුපස එනවිට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>33</Id>
+            <Name>මහා කරුණාව යනු සතුන් සුරතල් කිරීමෙන් බොහෝ ඈතක ගිය දෙයකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>34</Id>
+            <Name>රාග සිතකින් උපදින කල්පාන්තරයක දුක එක විදර්ශනා සිතකින් නිවා දමන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>35</Id>
+            <Name>දුවන මිනිසුන් අතර නවතින අතළොස්‌සට ඔබත් එකතු වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>36</Id>
+            <Name>දකින්න, ශීලයෙන් භාවනාවට දෙන ජවය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>37</Id>
+            <Name>අවබෝධය උදෙසා හුස්‌ම රැල්ල යොදාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>38</Id>
+            <Name>මෙසේ දකින්න, පුද්ගල සංඥාවෙන් මිදෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>39</Id>
+            <Name>ඔබ දෙපය තබාගෙන සිටින්නේ ඔබේ ම යැයි සිතූ ශරීර මත ම නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>40</Id>
+            <Name>මරණය එනතුරු නොසිට මරණය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>41</Id>
+            <Name>ධර්මය සරල පිළිතුරක්‌</Name>
+        </Chapter>
+    </book>
+    <book name="book10" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>නිරය ඇත්තේ මිහිපිට ම ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>නිරය යනු කෘත්‍රිම වූ මැවීමක් ද? නැතිනම් ස්වාභාවික පරිසරයක් ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>නිරය යනු අස්වාභාවික මැවීමක් නො වන බව තවදුරටත්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>මේ කීවේ නිරයන් 128ක් අතුරින් 7ක් ගැන පමණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>සංස්කාර නම් මැජික්කාරයා දැකගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>පින දැක සැඟවෙනු කුමකට සිල් රැක එය විඳිනු මිසක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>ඔබ අනුන්ගේ සංස්කාරයන්ට ඔරවන්නෙක් ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>කල්ප විනාශයක දර්ශන මාත්‍රයක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>වධකයා කලණ මිතුරු වෙස්ගෙන ඒවි. පරිස්සමෙන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>සසුන රැක්කොත් එහෙමයි, සසුන නැසුවොත් මෙහෙමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>තෘෂ්ණාවේ ආධිපත්‍යයට එරෙහිව අභියෝග කිරීම පිණිස</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>ඔබ ශීලයෙන් දුර්වල අය සමඟ ගැටේ ද? එසේ නම් වරද ඒ අයගේ නොවේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>භික්‍ෂූන් වහන්සේ නමක් සමඟ කටයුතු කරන විට උපේක්‍ෂා සහගත වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>ශීලයෙන් පරිපූර්ණ වූ පමණින් භවයේ සුරක්ෂිත වේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>චිත්ත විශුද්ධියෙන්, ප්‍රඥා විශුද්ධියෙන් දුර්වල නම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>සම්මා දිට්ඨිය නමැති නිවැරදි දොරටුවෙන් ඇතුළු වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>තමන්ගේ ආයු කාලයෙන් තවත් වසරක්‌ ගෙවී යනවා නේ ද? එසේනම්…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>පින නිසා ලැබුණු දේ පවට නම් බිලි නොදෙමු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>අලුත් අවුරුද්දෙත් ඔබ පරණ චරිතයම ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>ආයු බෝ වන්න, නව වසරේ මේ ගැනත් සිතන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>පන්සල, ආරණ්‍යය කුසලයටම මිස අකුසලයට නම් නො යොදන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>මත් පානයත්, මත් දානයත් දුරින්ම දුරුකරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>පිටි කොටන්න ගිය කාලය ඉතිරිවුණා. ඉතිරි කරපු කාලයේ කෝ පිං පිරුණා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>මේ, මා ඔබට දුන් අලුත් අවුරුදු තෑග්ගයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>සිංහල බෞද්ධකම ධර්මයෙන් අර්ථගැන්වූ අවුරුදු උදාවකට</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>අබුද්ධෝත්පාද කාලයන්ගේ කටුකබව ගැන සිතා මේ තෙමඟුල අර්ථවත් කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>ලස්‌සන වෙසක්‌ සැරසිල්ලෙන් ද අර්ථවත් ධර්මයක්‌ම දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>බුදු සිතක උපදිනා සිතිවිල්ලක්‌ ඔබේ සිත තුළත් උපදවාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>29</Id>
+            <Name>මැතිවරණයක සැඟවුණු මාරධර්ම</Name>
+        </Chapter>
+        <Chapter>
+            <Id>30</Id>
+            <Name>භාවනාවට පෙර – මෙසේ කළ යුතුමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>31</Id>
+            <Name>වේදනාවත් සංඥාවත් හඳුනාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>32</Id>
+            <Name>දර්ශනයෙන් දුරු කළ යුතු ආශ්‍රවයන් මෙසේ දුරු කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>33</Id>
+            <Name>ඉන්ද්‍රිය සංවරය උදෙසා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>34</Id>
+            <Name>රූපය ඉදිරියේ වහලෙක්‌ නොවී, නිහඬ උපක්‍රමශීලී ගවේශකයෙක්‌ වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>35</Id>
+            <Name>ඔබත් මේවා නොදැන නැති ආශ්‍රවයන් ඇතිකර ගත්තා ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>36</Id>
+            <Name>දකින්න, විශ්වාස කරන්න සංස්‌කාරයන්ගේ සාධාරණය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>37</Id>
+            <Name>තෘෂ්ණාව දන්දී අහර පමණක්‌ භුක්‌ති විඳින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>38</Id>
+            <Name>ඔබේ නිවස පිහිටි බිම්කඩ, සසරේ ඔබ දහස්‌ වරක්‌ මිහිදන් වූ සුසානයම නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>39</Id>
+            <Name>දිනකට අවම වශයෙන් අකුසල සිත් පහක්‌ දුරු කරන්න පුරුදු වෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>40</Id>
+            <Name>භික්ෂූන් වහන්සේගේ ඥාතීත්වය හඳුනාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>41</Id>
+            <Name>හොඳ ළමයෙක්‌ වීමට වඩා අවබෝධාත්මක ළමයෙක්‌ වීමයි වටින්නේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>42</Id>
+            <Name>මග හැරිය යුතු දේ මග නොහැරියහොත්…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>43</Id>
+            <Name>මඟහැර යැමෙන් මේ ආශ්‍රවයන් ද දුරු කළ හැකිය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>44</Id>
+            <Name>පුංචි කුහුඹුවාගෙනුත් ඔබ ලොකු ආශ්‍රවයන් ඇතිකරගන්නවා ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>45</Id>
+            <Name>මෙතැන් සිට සමථ-විදර්ශනාවට එන්න</Name>
+        </Chapter>
+    </book>
+    <book name="book11" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>පළමුව දෑස් හැර ලෝකය දෙස බැලුවෙමි. දෙවනුව දෑස් පියාගෙන ලෝකය අවබෝධ කළෙමි.</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>බුද්ධ ශාසන ලක්‍ෂ ගණනක්‌ ඔබට අතහැරුණු හේතුව මෙයමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ඔබට තේරෙන භාෂාවෙන් කුණපයන් කියවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>සැබෑ මිහිර විඳිනු පිණිස තිත්ත ඇත්ත දැකිය යුතුය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>කායානුපස්‌සනාවේ අරුත නොදැක්‌කහොත් අපත් තිරිසන් සත්ත්වයාත් එකම තැනකය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>පාලකයෙක්‌, පාලනයක්‌ නැති වෙනසක උරුමය ද මේ කය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>ඔබේ අතීත මළ කඳන්ගොඩ මත මොහොතක්‌ සක්‌මන් කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ඔබ රූපලාවන්‍යාගාරයක්‌ නොව කුණුවෙන සතර මහ ධාතුවක්‌මය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>සලායතන දැක්‌කොත් ඔබ මේ විලසින</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>මස්‌ ඇස විදර්ශනාවට ලක්‌ කර ප්‍රඥාවේ ඇස මතු කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>මහ පොළොවත්, ඔය සිරුරත් වෙන්වේවිද හැමදාමත්…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>කිසාගෝතමියට බුදුරජුන් දුන් කමටහන ඔබේ කමටහන කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>අනිත්‍ය වන ඉරියව්වක්‌ – නිත්‍යව ගත්තොත් උගුලක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>සංවර වූ, හික්‌මුණා වූ ඉරියව් කාය, චිත්ත සමාධියට ඖෂධයක්‌මයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>වේදනාවන්ගෙන් හටගත් මේ කඳුළු සාගරය නුවනින් දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>වේදනාවේ අනිත්‍යභාවය දකිමින් ජීවිතය භුක්‌ති විඳින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>කාලය‌ේත්, ආහාරය‌ේත්, රෝගයේත් යථා ස්‌වභාවය මෙසේ විචාරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>සිනහවත්, කඳුලත්, උපේක්‍ෂාවත් වේදනාවේ අනිත්‍යභාවයෙන් ම දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>සිත දුරගමන් යන විට, සිහිය නමැති දොරටුවට සෙමෙන් තට්‌ටු කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>මාරයාගේ ඇස්‌ බැන්ඳුමෙන් නිදහස්‌වන ක්‍රමවේදය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>මාරධර්මයන්, උපක්‍රමශීලීව උපයෝගී කොට ගනිමින්, මාරධර්මයන්ටම පහරදීමේ ක්‍රමවේදයක්‌ මට තිබුණා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>චිත්තානුපස්‌නාවෙන් ආවරණය නොවූ සිතට නිරයක්‌ මැවිය හැක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>චිත්තානුපස්සනාවත්, අංගුලිමාල රහතන් වහන්සේත් ගලපන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>මේ සියල්ල ධර්මතාවයන්මය…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>මේ නිමේෂයද අනිත්‍යයට පත්වන ධර්මතාවක්‌ම පමණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ඇය මටද, මට ඇයද නොව අප දෙදෙනාම අයිති ධර්මතාවයකටය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>ධර්මතාවය සැබැවින් දුටු තැන, ඔබ වටිනාකම හිස්‌කරනු ඇත</Name>
+        </Chapter>
+    </book>
+    <book name="book12" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>භවයේ උගුලද අගුලද මෙයම ය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>සාරසංඛ කල්ප ලක්‍ෂයක්‌ පෙරුම් පිරීමේ අවසන් පරමාර්ථය මෙය නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>කසපහර තුන්සියය ඉවසන්න පිංවත! මන්ද…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>ආයතන හයක මරණානුස්‌සතිය නුවණින් දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>තුන් කාලයටම ගලපා රූපයේ අනිත්‍යභාවය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>කාලය මවනා වෙනසක යථාර්ථය විනිවිද දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>අනිත්‍යය නොදැක අනාගතය රැස්‌කරන අදක්‍ෂයෙක්‌ නොවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>ඕනෑම අකීකරු ලෝක ධර්මයක්‌ ඉදිරියේ නොසැලී සිටින්නට නම්…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>ඔබ ඇසුණ, දුටුව, දැනුණ තැන නැවතුණු බුදුන්ගේ දරුවෙක්‌මය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>සත්වයා භවයට ගාල් කිරීමේ මුල් පියවර – වේදනාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>සැපත්, දුකත්, උපේක්‍ෂාවත් අනිත්‍යයෙන් විනිවිද දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>අතීතය සිහිනයක්‌ පමණයි වත්මනද ඒ වගේමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ඊළඟ මොහොත මේ මොහොතෙන් වෙනස්‌ වන්නේ කුමක්‌ නිසාද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>හඳුනාගැනීම කාලයට අනුව වෙනස්‌වන හැටි දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>ඊයේ අද මෙන් හෙටටත් හඳුනගන්නේ මායාවක්‌</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>සිතිවිල්ල සංස්‌කාරයකට උපත දෙන බව සිතුවාද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>‘සිතීම’ පහසුයි – ‘භවය’ අපහසුයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>සංස්‌කාරයෝ අනිත්‍යයි, කටුකයි, බියකරුයි, රුදුරුයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>අවිද්‍යාවේ අකුසල් නිධිය විපාක දෙන්නේ මෙසේය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>මගේ මළකඳ තුළිනුත් ඔබ ධර්මයම දකින්නේ නම්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>විඤ්ඤාණයේ අනාගතයට සංස්‌කාර අස්‌වද්දාගන්නා රඟ දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>උප්පැන්නයෙන් එහා ඔබේ සැබෑ වයස ගැන සිතන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>සංසාරයත් සංස්‌කාරත් අතර ඇති සංසිද්ධිය කෙසේද යත්…</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>කබරයෙක්‌ කියාදුන් සංස්‌කාර පිළිබඳ පාඩම</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>විශේෂයෙන් දැනගත් දේ එලෙසින්ම රැඳුනේද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ඊයේත් අදත් හෙටත් විඤ්ඤාණයේ හිස්‌ බව දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>ඔබ සංස්කාර තුරුල් කරගෙන නලවනවා නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>මාරයන් දෙදෙනෙකුගේ දාසයෙක්‌ද ඔබ?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>29</Id>
+            <Name>අනුන් තුළ පමණක් නොව, තමා තුළද සිටින මාරයා හඳුනාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>30</Id>
+            <Name>'මම මෙහෙම කෙනෙක්‌' කියන මනෝලෝකයේ සිරකරුවෙක්‌ නොවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>31</Id>
+            <Name>අනුන් ඔබට කරන කියන දෙය නොව එයින් ඔබ තුළ ඇතිවන දෙය විමසන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>32</Id>
+            <Name>බාහිර ලෝකය ප්‍රශ්නාර්ථයක්‌ ලෙසින් දකිනු වෙනුවට ඔබ නිහඬව ඔබේ ප්‍රශ්නය විසඳාගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>33</Id>
+            <Name>ඔබ විසින්ම ඔබ රටවා ගැනීමේ විපාකය දන්නේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>34</Id>
+            <Name>දැනුම පළිබෝධ සහිතයි - අවබෝධයෙන් පරිහරණය කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>35</Id>
+            <Name>පංච උපාදානස්කන්ධය අවබෝධයෙන් දැක, මේ වියවුල් සහිත ලෝකයම සංසිඳවන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>36</Id>
+            <Name>මාරයාගේ ස්‌වයං වර්ණනාවට හෝ ස්‌වයං විවේචනයට නොරැවටෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>37</Id>
+            <Name>සංස්‌කාර යනු පංචඋපාදානස්‌කන්ධ මාරයාගේ තවත් නිෂ්පාදනයක්‌මය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>38</Id>
+            <Name>දෑස්‌ හැරගෙනම ඔබ කරන භාවනාව කුමක්‌ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>39</Id>
+            <Name>ශීලයේ පලුදු බුද්ධානුස්‌සතියෙන් පිරියම් කර සොඳුරු ආරම්භයක්‌ ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>40</Id>
+            <Name>බුද්ධානුස්‌සතියට පූර්වකෘත්‍යයක්‌ ලෙසින් ඔබ බුදුසමයෙන් එපිට අතීතයට යන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>41</Id>
+            <Name>ඔබ පය තබාගෙන සිටින පොළොව ඔබ උදෙසා බෝධිසත්වයන් දන් දුන් ශරීර මාංශයම නොවේද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>42</Id>
+            <Name>බුද්ධත්වයට පෙර අවධිය දක්‌වාද බුදු ගුණය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>43</Id>
+            <Name>ඒ විශිෂ්ටත්වයන් ඇත්තේ බුදුන්වහන්සේ තුළම පමණි...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>44</Id>
+            <Name>මේ භයංකාරත්වය බුදුවරයකුම හැර වෙන කව්රුන් ඔබට පහදා දෙන්නද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>45</Id>
+            <Name>ඒ අසිරිමත් බුද්ධ ඥානයට මෙසේ වූ හැකියාවන්ද ඇත්තේය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>46</Id>
+            <Name>දැවෙන සිත් නිවුනු සිතින් දමනය කළ උන්වහන්සේගේ පුරිසධම්ම සාරථි ගුණය...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>47</Id>
+            <Name>අවසන් බුදු වදනේ පවා විහිදුනේ ඒ මහා කරුණා ගුණයයි...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>48</Id>
+            <Name>අයාලේ දුවන ඔබේ සිත බුදු ගුණයක්‌ අභියස තැන්පත් කරන්න...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>49</Id>
+            <Name>ඔබේ නින්ද ද බුදුගුණයක්‌ තුළම සතපවන්න</Name>
+        </Chapter>
+    </book>
+    <book name="book13" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>මිථ්‍යාදිට්‌ඨිය සහ සම්මාදිට්‌ඨිය අතර පරතරය දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>ධර්මයේ මහානුභාවය අනුන්ගෙන් නොව තමා තුළින්ම අත්දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ධර්මරත්නයේ කල්නොයවා විපාක දීමේ විශ්වාසය මාර්ගය කෙරෙහි ඔබේ සැකය මරාදමනු ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>මේ කල්‍යාණ මිත්‍රයාම යැයි ඔබට විශ්වාසයෙන් ම පැවසිය හැක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>ඔබ ඔබට අවංක වුණු තැන, ඔබ සද්ධර්මයට අවංක වුණා වන්නේය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ධර්මය ඔබ ජීවිතයේම කොටසකි... මුහුවකි... බද්ධයකි...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මිච්ඡා ශ්‍රාවකත්වයෙන් මිදීමේ භාග්‍යය අත්දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>මගේ කරගෙන ජීවත්වන සියල්ල දමා යන්නට සිදු වන ලෝකයක...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>ඔබේ නිවැරදි වීම උදෙසා කවදාවත් සම්මුති ලෝකය නිවැරදි වනතුරු බලා නො සිටින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>ආභස්‌සර බඹ ලොවින් පැමිණි ඔබ මෙතරම් ගොරෝසු මනුෂ්‍යයන් වූයේ කෙසේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>ලෝකයා නොදත් ලොව, ලොවට රහසේ දකියි භික්ෂුව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>නොබැඳෙන සිතක අවසානය අවබෝධයයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ගෞතම බුදුසසුන කරා එකම රෑනක්‌ සේ ඈදුණු උතුමන්ගේ ගමනක ආශ්චර්යය ම නොවේද මේ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>විරාගී විප්ලවය ජයගත් උතුමන් ආ මගයි මේ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>ධර්මය තුළින් ධර්මය දකින කළ එහි කොහිද වෙහෙසක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>එකිනෙක ඈඳුණු ගුණයන්ගෙන් ඒ ආර්ය සංඝරත්නය බබළන සේක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>අනුත්තර පින් කෙතේ වපුරා ලැබූ රන් අස්වනු මෙසේ වෙයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>සංඝරත්නය මෙසේ ඇසුරු කරන්න. මෙසේ එම ගුණයන් දායාද කරගන්න.</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>අවැසි නම් සැබැවින්ම සාමය, බුදු රජුන් දෙසූ මෙයයි යාගය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>සමාජ විකෘතිය තම අවබෝධය උදෙසා යොදාගන්න සැබෑම ජයග්‍රහනය ලබයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>අවබෝධයට මග ඇත්තේ මේ අතිශය අවදානම තුළමය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>සෝවාන් නොවූ හැම පුද්ගලයෙකුට ම මානසික ව්‍යාධියක්!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>පව නොදන්නා සමාජයට වඩා පව පින හඳුනන බෞද්ධයෙක්‌ වීමේ අගයම දකින්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>ආර්ය අෂ්ටාංගික මාර්ගයේ ලෝකෝත්තර අර්ථය වන විදර්ශනාමය ප්‍රඥාව මෝදු කොට ගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>වස්සානය එළඹියේ දස කුසලයට මිස තරඟයකට නොවේ...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ලෝකයේ ආගම් කොතරම් තිබුණත් ස්‌වභාව ධර්මය බුද්ධාගමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>ඔබ මේ උපන් බිමේ සත්පුරුෂ දරුවකුම වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>ඔබේ තෘෂ්ණාවේ සුමිහිරි ගීතය අනාගත දුකේ අඳෝනාවක්‌මය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>29</Id>
+            <Name>තෘෂ්ණාව සැඟවිලා අපි හැමෝටම ඔච්චම් කරනවා නොවේ ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>30</Id>
+            <Name>ආදරයත් අනාදරයත් දෙකම මාරයාගේ තට්‌ටු මාරුවකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>31</Id>
+            <Name>සිංහල බෞද්ධ ජාතිය උපන්නේ, සද්ධර්මයේ ලේ උරුමයෙන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>32</Id>
+            <Name>අසිහියෙන් යන මේ ගමනේ කෙළවර කොතනද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>33</Id>
+            <Name>වනවාසී භික්ෂූනට, තාක්ෂණය මාර ධර්මයක්මයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>34</Id>
+            <Name>මුලු ලෝකයම එරෙහි වුවද භික්ෂුවකට බියක් ඇතිවන්නේ නැත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>35</Id>
+            <Name>ශාසනයේ ආරක්ෂාවට රජකු අත්‍යවශ්‍යමය</Name>
+        </Chapter>
+    </book>
+    <book name="book14" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>සිල්පද පහේ ආරක්ෂාව තුළ ජීවත්වන කෙනා සෑමවිටම පෞරුෂත්වයෙන් යුත් පින්වතෙක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>අපි මේ මුළු රටම ශීලයේ යාග භූමියක් බවට පත් කර ගනිමු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>බුද්ධෝත්පත්ති කාලයක විකෘති මෙසේ නම් අබුද්ධෝත්පත්ති කාල කෙසේ වෙයිද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>විදීම් සොයා අයාලේ යන සිතක රස්තියාදුව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>ඔබේ ඇලීම ගැටීමටත් මිලක් දෙන සමාජයක, ඔබ වෙනුවෙන් ඉස් මස් පවා කැපකළ සරණක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>භික්ෂූත්වයේ ආදර්ශය 'ඩිමාන්ඩ්' එකක රිමාන්ඩ් කළ හැකිද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>සැඩ පහර හයකට හසුවී ගලාගෙන යන ‘කඳක්’ නොවන්න!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>උතුම් බුදුගුණයන් නොවන්නට මම අද කොහේදැයි සිතුවාද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>රැකියාවේ යුතුකම, වගකීම භවයටම වැටුප තීරණය කරනු ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>තෙපාවක් මත රැඳුණු දිවියක් මහ මෙරක් වනු කෙලෙසදෝ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>තෘෂ්ණාව තෘෂ්ණාවෙන්ම නැති කරන කලාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>ප්‍රශ්නය බරපතල වුණත් හේතුඵල ගැලපීමේදී මතුවන දේ සුන්දරයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ගෙයි ගින්දර පිටටත් එපා! පිටරටටත් එපා!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>තමන් තුළටම එබී බලන්න, ලොව බිහිසුණුම අඳුර ඇතිදැයි කියා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>දුක නමැති රෝගයට එකවර ඔසු දෙකක්</Name>
+        </Chapter>
+    </book>
+     <book name="book15" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>වෙසක් සදේ සිරිය මැදින් කළු වලාවේ යථාර්ථයත් දකී නම්...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>ඇතෙක් බරට, බරම සොයන සමාජයක සැහැල්ලූව හෑල්ලූවන හැටි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>ආර්ය අෂ්ටාංගික මාර්ගයේ අවිය, ශීලයේ පළිහ දරාගත්   දේශයේ සැබෑ රැකවලා වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>රහත් සිත නම් පර්වතය රූප සුළි සුළං හමුවේ නොසැලෙන අපූරුව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>බිය දැනුණු තැන සිහි කරනු මේ බුදු වදන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ආදරේ අරුථ මතුකරගන්න - භාවනාව ගැන කථාවත් භාවනාවක්ම කරගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>අකුසල් තටාකයේ දියබුන් ගසන ඔබ ක්ෂාරෝධක නදියේ  ගිලෙන්නට සූදානම් ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>කෙලෙස් ඇත්තාට ලෝකය විශාලය - රහතන් වහන්සේට ලෝකය නිරුද්ධ ය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>නොලැබීමත් බණක් කියයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>අතින් අල්ලන් අපායේ ගිල්වන මිතුරුකම ද?  කෙස් වැටියෙන් ගෙන දහමේ ඔබන මිතුරුකමද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>ලිප ගිනි නිවුවත් ඇවිලෙන දිවි ගිනි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>අනෝතප්ත විල අතහැර පිහිනුම් තටාකයට පනින අසරණයෝ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>ආර්ය හුදෙකලාව ඝෝෂාව ඉදිරියේ නොබිදෙන්නකි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>බොරුව කෙරෙහි වෛර කර කිසිදිනක සත්‍යය දිනවිය නොහැක</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>සුන්දර සංසාරික ඥාතීත්වය ජාතිවාදයෙන් විරසක නොකරමු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>වස්සානයෙන් දොර ජනෙල් වැසූ කුටිය තුළ භව නිරෝධයට විවර වූ සිතක්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>ජයග‍්‍රහණයේ සළු පොරවා ගත් පරාජයේ කථාව</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>නීතියට බයේ සැගවෙන, අකුසලය ඉදිරියේ චණ්ඩිවෙන නිවටකම</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>කුරුළු හොටකට කෑලි කැඩෙන කොළ පනුවාගේ අතීත සිල්පද</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>ගිලන්පසට අමතරව හාමුදුරුවන්ට ‘හවස දානයත්’ දෙන ඔබ ගැන අනුකම්පාවෙනි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>කෙහෙල් ‘අරටුවෙන්’ තැනූ සිංහාසනයට ගොඩවන්නේ බලාගෙනයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>මාරයාගේ ගොදුරු බිමක් නොවන අභය භූමියක් ඔබ අසලම ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>සීවලී හිමියන් සහ ලෝසක හිමියන් සසදමින් හේතු ඵල විමසන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>ඔබේ ජීවිත කථාව යනු අනිත්‍ය වූ සංස්කාරයන් විසින්  ඇටවූ මායාවක් ම පමණි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>25</Id>
+            <Name>දහම දේශපාලනයෙන් හුදෙකලා විය යුතුද?  දේශපාලනය දහමෙන් පෝෂණය විය යුතුද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>26</Id>
+            <Name>ඔබ පිනට වියදම් කරන මුදලින් හම්බ කරගන්නේ ඔබමයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>27</Id>
+            <Name>උපන් දිනය දවසේ මුලින්ම හිතන්න ඇයි මම ඉපදුණේ කියලා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>28</Id>
+            <Name>අටලෝ දහම ඉදිරියේ නිහඩ ගවේෂකයෙක් වන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>29</Id>
+            <Name>අතීත අකුසල් විපාක වැස්සේ දහම් සෙවන කුඩයක් පමණක් වේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>30</Id>
+            <Name>සිංහල බෞද්ධකමට බුද්ධ වංශයේ උපතක් ලබාදෙමු</Name>
+        </Chapter>
+        <Chapter>
+            <Id>31</Id>
+            <Name>දේශපාලකයාගේ පිනේ ‘භේදය’</Name>
+        </Chapter>
+        <Chapter>
+            <Id>32</Id>
+            <Name>ඔබ අද දඩු ලෙහෙනියක් - මම සංඝ සමාජයේ භික්ෂුවක්</Name>
+        </Chapter>
+    </book>
+    <book name="book16" translatable="false">
+        <Chapter>
+            <Id>1</Id>
+            <Name>කොරෝනාව පරාජය කළත් ඔය ජීවිතය දිනුවාද? (බොරු පහට රැවටී ඇත්ත හතර නොදකින ලෝකයාගෙන් විමසමි)</Name>
+        </Chapter>
+        <Chapter>
+            <Id>2</Id>
+            <Name>ප‍්‍රියයෙක් නැති තැන දුකක් කොහේදෝ..</Name>
+        </Chapter>
+        <Chapter>
+            <Id>3</Id>
+            <Name>නිවනේ ශාන්තභාවය මොහොතකට අනුමානයෙන් අත්විඳ බලන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>4</Id>
+            <Name>භික්ෂුවට ලස්සන වැඩිකරගන්න පුළුවන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>5</Id>
+            <Name>තෘෂ්ණාවේ වෙස් මාරුවට රැවටී ශාසනය ලිහිලෙන් නොගන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>6</Id>
+            <Name>ලොව මහා බලවතා සැක හැර හඳුනාගන්නට සලසා දුන්නේ  කොරෝනාව විසිනි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>7</Id>
+            <Name>මේ චරිත පහ අතුරින් ඔබේ චරිතය කුමක්ද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>8</Id>
+            <Name>සම්මුති ලෝකය ඉදිරියේ රූප (අ)සුන්දර ජවනිකාවක රඟ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>9</Id>
+            <Name>මාරයාට අපි ඇස් දන්දෙන හැටි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>10</Id>
+            <Name>විඤ්ඤාණයට රූපය නමැති ගොදුරු බිම අහිමි කරන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>11</Id>
+            <Name>භවාත‍්‍රයේ සෙල්ලම් ගෙවල්ම හදන ගොරහැඬි වැඩිහිටි අපි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>12</Id>
+            <Name>සියලූ ජයග‍්‍රාහී මිච්ඡුා වාදයන් අන්තිම හුස්මේදී පරදිනු ඇත</Name>
+        </Chapter>
+        <Chapter>
+            <Id>13</Id>
+            <Name>හාමුදුරුවෝ දන් හැන්දට ණයයිද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>14</Id>
+            <Name>සසරේ කල්ප ගණන් ප‍්‍රමාද වූ අපි කැඳ දානයේ පරක්කුව නොයිසවසයි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>15</Id>
+            <Name>සඳවතිය දෙස තුන් අයුරකින් බලන ලෝකයක සිට...</Name>
+        </Chapter>
+        <Chapter>
+            <Id>16</Id>
+            <Name>තෘෂ්ණාවේ අරටු විදර්ශනාවේ පොරොවෙන් කපන්න බැරි තරම් මෝරන්න නොදෙන්න</Name>
+        </Chapter>
+        <Chapter>
+            <Id>17</Id>
+            <Name>සංස්කාර...ඔබ මොන තරම් නම් චපලද?</Name>
+        </Chapter>
+        <Chapter>
+            <Id>18</Id>
+            <Name>ඔබ මා හමුවූයේ කඳුළු පිරි දෑසින් සමුගැනීමට නොව එකිනෙකාගෙන් නිදහස් වීමටය</Name>
+        </Chapter>
+        <Chapter>
+            <Id>19</Id>
+            <Name>දුකේ මහ මොළකරුව දැන දැනත් ඇසුරු කරන අපි</Name>
+        </Chapter>
+        <Chapter>
+            <Id>20</Id>
+            <Name>තෘෂ්ණාවට විශ‍්‍රාම දෙන්න 55 වෙනකම් ඉන්න එපා</Name>
+        </Chapter>
+        <Chapter>
+            <Id>21</Id>
+            <Name>තෘෂ්ණාවේ මත් පෙත්ත වහා අත්අඩංගුවට ගනු!</Name>
+        </Chapter>
+        <Chapter>
+            <Id>22</Id>
+            <Name>සංසාර අපරාධයේ නඩුත් ඔබේ - බඩුත් ඔබේ</Name>
+        </Chapter>
+        <Chapter>
+            <Id>23</Id>
+            <Name>සම්මා දිට්ඨිය මරාගෙන, පින කෑවොත්, භව අතීසාරය හැදෙන්න පුළුවන්</Name>
+        </Chapter>
+        <Chapter>
+            <Id>24</Id>
+            <Name>ලෝකයේ ලස්සනම තැනල ඵස්සය තෘෂ්ණාවෙන් තෙත් නොවන තැනයි</Name>
+        </Chapter>
+    </book>
+</resources>

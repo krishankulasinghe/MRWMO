@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+              Title="Bookmarks" BackgroundColor="#F9F9F9" 
+             x:Class="MRWMO.BookMarks">
+    <ContentPage.Content>
+        <ListView x:Name="bookmarkList"  HasUnevenRows="true"  SeparatorVisibility="Default" ItemSelected="bookmarkList_ItemSelected" VerticalOptions="Fill" >
+            <ListView.ItemTemplate  >
+                <DataTemplate>
+                    <!--<TextCell Text="{Binding Name}" Detail="{Binding Book.Name}" TextColor="Black"></TextCell>-->
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Delete" IconImageSource="ic_stat_delete.png" Clicked="MenuItem_Clicked"  IsDestructive="True" CommandParameter="{Binding .}" />
+                        </ViewCell.ContextActions>
+                        <StackLayout Orientation="Vertical"
+                                     HorizontalOptions="StartAndExpand" Padding="10" >
+                            <Label Text="{Binding Name}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" FontFamily="AbhayaLibreB"  FontSize="20" TextColor="#555555"  Padding="0" />
+                            <Label Text="{Binding Book.Name}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" FontFamily="AbhayaLibreM"  FontSize="15" TextColor="#ccc"  Padding="0" />
+                        </StackLayout>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

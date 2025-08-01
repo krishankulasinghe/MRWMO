@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:MRWMO.Converters"
+             x:Class="MRWMO.PansilMaluwaDeshana"
+             Title="පන්සිල් මළුව"
+             BackgroundColor="#F9F9F9">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto, *" Padding="10" RowSpacing="10" BackgroundColor="#F9F9F9">
+        <Frame Grid.Row="0" HasShadow="True" Padding="0" HeightRequest="40">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image HeightRequest="20" WidthRequest="20" Margin="10,0" Source="search.png"/>
+                <Entry Grid.Column="1" TextChanged="SearchBar_TextChanged" Placeholder="Search" TextColor="Black" FontSize="15" FontFamily="ThemeFontRegular" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            </Grid>
+        </Frame>
+
+        <CollectionView Grid.Row="1"
+                        x:Name="videoLinks"
+                        SelectionMode="None"
+                        RemainingItemsThreshold="5"
+                        RemainingItemsThresholdReachedCommand="{Binding LoadMoreItemsCommand}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="0,0,0,10" HasShadow="True">
+                        <StackLayout>
+                            <Label FontAttributes="Bold" FontFamily="AbhayaLibreB" FontSize="25" Padding="5" Text="{Binding Name}" TextColor="#555555" HorizontalTextAlignment="Center" />
+
+                            <Image Source="{Binding ThumbnailUrl}"
+                                   IsVisible="{Binding IsVideoVisible, Converter={StaticResource InverseBoolConverter}}"
+                                   HeightRequest="250">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding PlayCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+
+                            <WebView VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Source="{Binding EmbedUrl}"
+                                     IsVisible="{Binding IsVideoVisible}"
+                                     HeightRequest="250"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <CollectionView.Footer>
+                <Grid Padding="20">
+                    <ActivityIndicator IsRunning="{Binding IsLoading}"
+                                       IsVisible="{Binding IsLoading}"
+                                       Color="Black"
+                                       HorizontalOptions="Center" />
+                </Grid>
+            </CollectionView.Footer>
+
+        </CollectionView>
+    </Grid>
+</ContentPage>

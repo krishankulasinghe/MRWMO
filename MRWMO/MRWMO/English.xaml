@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Padding="0"
+             BackgroundColor="#F8F9FA" Title="Giving Up Articles"
+             x:Class="MRWMO.English">
+
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <StackLayout Grid.Row="0" Padding="20,20,20,10" BackgroundColor="#FFFFFF">
+            <Label Text="Discover Books" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   TextColor="#1A1A1A"
+                   HorizontalOptions="Start" />
+            <Label Text="Explore our collection of amazing reads" 
+                   FontSize="16" 
+                   TextColor="#6B7280"
+                   HorizontalOptions="Start" 
+                   Margin="0,5,0,0" />
+        </StackLayout>
+
+        <!-- Books Collection -->
+        <CollectionView Grid.Row="1" 
+                        SelectionMode="Single" 
+                        SelectionChanged="CollectionView_SelectionChanged" 
+                        ItemsSource="{Binding .}"
+                        Margin="10,0,10,20">
+
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" 
+                                 Span="2" 
+                                 HorizontalItemSpacing="12" 
+                                 VerticalItemSpacing="16" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border BackgroundColor="#FFFFFF"
+                            StrokeThickness="0"
+                            Padding="0"
+                            Margin="0">
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16" />
+                        </Border.StrokeShape>
+
+                        <!-- Shadow effect -->
+                      
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <!-- Book Image Container -->
+                            <Border Grid.Row="0" 
+                                    BackgroundColor="Transparent"
+                                    StrokeThickness="0"
+                                    Margin="12,12,12,8">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="12" />
+                                </Border.StrokeShape>
+
+                                <Image Source="{Binding Image}" 
+                                       Aspect="AspectFit" 
+                                       HeightRequest="220"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center" />
+                            </Border>
+
+                            <!-- Book Title -->
+                            <StackLayout Grid.Row="1" 
+                                         Padding="12,0,12,16" 
+                                         Spacing="4">
+                                <Label Text="{Binding Name}"
+                                       FontSize="14"
+                                       FontAttributes="Bold"
+                                       TextColor="#1F2937"
+                                       HorizontalOptions="Center"
+                                       HorizontalTextAlignment="Center"
+                                       LineBreakMode="TailTruncation"
+                                       MaxLines="2" />
+                            </StackLayout>
+                        </Grid>
+
+                        <!-- Tap Gesture for Visual Feedback -->
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="Scale" Value="1" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="Scale" Value="0.98" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Loading State (Optional - can be shown/hidden based on data loading) -->
+        <ActivityIndicator Grid.Row="1"
+                           IsVisible="False"
+                           IsRunning="False"
+                           Color="#6366F1"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

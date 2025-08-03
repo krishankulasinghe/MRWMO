@@ -3,6 +3,11 @@ using MRWMO.Helpers;
 using MRWMO.Models;
 using Newtonsoft.Json;
 using Microsoft.Maui.Storage;
+#if ANDROID
+using Android.Views;
+using Microsoft.Maui.Platform;
+using AndroidX.Core.View;
+#endif
 
 namespace MRWMO
 {
@@ -13,12 +18,55 @@ namespace MRWMO
         private IList<Chapter> _bookMarkList = null;
         private CancellationTokenSource cts;
         private int _fontSize = 18;
+        // A flag to keep track of the current screen state.
+        private bool _isFullScreen = false;
 
         public Content(Chapter chapter)
         {
             _chapter = chapter;
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        /// This event is triggered when the main content area is tapped.
+        /// </summary>
+        private void OnContentTapped(object sender, TappedEventArgs e)
+        {
+            ToggleFullScreen();
+        }
+
+        /// <summary>
+        /// Toggles the visibility of the navigation and status bars.
+        /// </summary>
+        private void ToggleFullScreen()
+        {
+            // Invert the fullscreen state
+            _isFullScreen = !_isFullScreen;
+
+            // Toggle the visibility of the MAUI Navigation Bar
+            Shell.SetNavBarIsVisible(this, !_isFullScreen);
+
+            // Platform-specific code to hide/show the system status bar
+#if ANDROID
+            var activity = Platform.CurrentActivity;
+            if (activity?.Window != null)
+            {
+                var window = activity.Window;
+                var insetsController = WindowCompat.GetInsetsController(window, window.DecorView);
+
+                if (_isFullScreen)
+                {
+                    // Hide the status bar
+                    insetsController.Hide(WindowInsetsCompat.Type.SystemBars());
+                    insetsController.SystemBarsBehavior = WindowInsetsControllerCompat.BehaviorShowTransientBarsBySwipe;
+                }
+                else
+                {
+                    // Show the status bar
+                    insetsController.Show(WindowInsetsCompat.Type.SystemBars());
+                }
+            }
+         #endif
         }
 
         protected override void OnAppearing()

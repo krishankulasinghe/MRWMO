@@ -12,6 +12,10 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
+            <VerticalStackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnContentTapped" />
+            </VerticalStackLayout.GestureRecognizers>
+
             <!-- Inline Settings Panel (now expanded with icons and buttons) -->
             <StackLayout x:Name="SettingsPanel"
               IsVisible="False"

@@ -43,6 +43,15 @@ namespace MRWMO
             ToggleFullScreen();
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            // Reset the theme to Light Mode when the user navigates back.
+            Application.Current.UserAppTheme = AppTheme.Light;
+
+            // Allow the default back button behavior to execute (i.e., navigate back).
+            return base.OnBackButtonPressed();
+        }
+
         /// <summary>
         /// Toggles the visibility of the navigation and status bars.
         /// </summary>
@@ -74,7 +83,7 @@ namespace MRWMO
                     insetsController.Show(WindowInsetsCompat.Type.SystemBars());
                 }
             }
-         #endif
+#endif
         }
 
         /// <summary>
@@ -105,14 +114,17 @@ namespace MRWMO
             _chapter.Content = content.Replace("z", Environment.NewLine);
 
             LoadBookmarkStatus();
-            contents.FontSize = _fontSize;
+
             if (_chapter.Book.LanguageId == (int)LanguageEnum.Sinhala)
             {
                 contents.FontFamily = "AbhayaLibreM";
+                contents.FontSize = _fontSize;
             }
-            else {
+            else
+            {
                 contents.FontFamily = "OpenSansRegular";
-            } 
+                contents.FontSize = _fontSize - 2;
+            }
             BindingContext = _chapter;
         }
 
@@ -125,7 +137,7 @@ namespace MRWMO
             }
 
             bool isBookmarked = _bookMarkList?.Any(c => c.BookId == _chapter.BookId && c.Id == _chapter.Id) == true;
-            BookMarkToolBarItem.Source = isBookmarked ? "ic_action_bookmark.png" : "ic_action_bookmark_border.png";
+            BookMarkToolBarItem.Source = isBookmarked ? "ic_action_bookmark_black.png" : "ic_action_bookmark_border_black.png";
         }
 
         private void ToggleSettings_Clicked(object sender, EventArgs e)

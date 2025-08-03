@@ -10,7 +10,7 @@ namespace MRWMO
         public MainPage()
         {
             InitializeComponent();
-
+            Application.Current.UserAppTheme = AppTheme.Light;
             Routing.RegisterRoute(nameof(Chapters), typeof(Chapters));
             Routing.RegisterRoute(nameof(Content), typeof(Content));
         }

@@ -3,7 +3,7 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:MRWMO"
        x:Class="MRWMO.MainPage"
-       BackgroundColor="Black">
+       BackgroundColor="{AppThemeBinding Light=Black, Dark=Black}">
 
     <!-- Flyout Header -->
     <Shell.FlyoutHeader>
@@ -14,10 +14,14 @@
     <Shell.ItemTemplate>
         <DataTemplate>
             <Grid Padding="10">
+                <!-- 
+                FIX: Replaced the static TextColor="Black" with an AppThemeBinding.
+                The text will now be Black in Light mode and White in Dark mode.
+                -->
                 <Label Text="{Binding Title}"
                        FontFamily="AbhayaLibreM"
                        FontSize="16"
-                       TextColor="Black"/>
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
             </Grid>
         </DataTemplate>
     </Shell.ItemTemplate>
@@ -26,7 +30,7 @@
     <FlyoutItem Title="අතහැරීම ලිපි">
         <ShellContent ContentTemplate="{DataTemplate local:Sinhala}" />
     </FlyoutItem>
-   
+
     <FlyoutItem Title="Giving Up Articles">
         <ShellContent ContentTemplate="{DataTemplate local:English}" />
     </FlyoutItem>

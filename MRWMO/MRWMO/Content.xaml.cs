@@ -69,6 +69,25 @@ namespace MRWMO
          #endif
         }
 
+        /// <summary>
+        /// Toggles the application's theme between Light and Dark mode.
+        /// </summary>
+        private void ToggleDarkMode_Clicked(object sender, System.EventArgs e)
+        {
+            // Get the current theme from the application's settings
+            var currentTheme = Application.Current.RequestedTheme;
+
+            // Toggle the theme and set it for the application
+            if (currentTheme == AppTheme.Dark)
+            {
+                Application.Current.UserAppTheme = AppTheme.Light;
+            }
+            else
+            {
+                Application.Current.UserAppTheme = AppTheme.Dark;
+            }
+        }
+
         protected override void OnAppearing()
         {
             string content = (_chapter.Book.LanguageId == (int)LanguageEnum.Sinhala)

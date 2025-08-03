@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Title="" BackgroundColor="#F9F9F9" 
+             Title=""  BackgroundColor="{AppThemeBinding Light=#F9F9F9, Dark=#121212}"
+              Shell.NavBarIsVisible="True"
              x:Class="MRWMO.Content">
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="ToggleSettings_Clicked" Text="Share" IconImageSource="ic_action_settings.png" Order="Primary"  Priority="0" ></ToolbarItem>
@@ -21,47 +22,53 @@
               IsVisible="False"
               Spacing="10"
               Padding="10"
-              BackgroundColor="#F0F0F0"
+              BackgroundColor="{AppThemeBinding Light=#F0F0F0, Dark=#232323}"
               Margin="0,0,0,10">
 
                 <!-- Actions row -->
                 <HorizontalStackLayout Spacing="15" HorizontalOptions="Center">
+                    <!-- Added Dark Mode Toggle Button -->
+                    <ImageButton Source="ic_action_dark_mode.png"
+                                 Clicked="ToggleDarkMode_Clicked"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton Source="ic_action_zoom_in.png"
-    Clicked="ToolbarItem_Clicked_Plus"
-    WidthRequest="35"
-    HeightRequest="35"
-    BackgroundColor="#ccc" />
+                                 Clicked="ToolbarItem_Clicked_Plus"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton Source="ic_action_zoom_out.png"
-    Clicked="ToolbarItem_Clicked_Minus"
-    WidthRequest="35"
-    HeightRequest="35"
-    BackgroundColor="#ccc" />
+                                 Clicked="ToolbarItem_Clicked_Minus"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton Source="ic_action_skip_previous.png"
-                      Clicked="ToolbarItem_Clicked_Back"
-                      WidthRequest="35"
-                      HeightRequest="35"
-                      BackgroundColor="#ccc" />
+                                 Clicked="ToolbarItem_Clicked_Back"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton Source="ic_action_skip_next.png"
-                      Clicked="ToolbarItem_Clicked_Next"
-                      WidthRequest="35"
-                      HeightRequest="35"
-                      BackgroundColor="#ccc" />
+                                 Clicked="ToolbarItem_Clicked_Next"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton x:Name="BookMarkToolBarItem"
                                  Source="ic_action_bookmark_border.png"
-                      Clicked="ToolbarItem_Clicked_BookMark"
-                      WidthRequest="35"
-                      HeightRequest="35"
-                      BackgroundColor="#ccc" />
+                                 Clicked="ToolbarItem_Clicked_BookMark"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton x:Name="PlayToolBarItem" Source="ic_action_play_arrow.png"
-                      Clicked="PlayToolBarItem_Clicked"
-                      WidthRequest="35"
-                      HeightRequest="35"
-                      BackgroundColor="#ccc" />
+                                 Clicked="PlayToolBarItem_Clicked"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                     <ImageButton x:Name="ShareToolBarItem" Source="ic_action_share.png"
-                      Clicked="ShareToolBarItem_Clicked"
-                      WidthRequest="35"
-                      HeightRequest="35"
-                      BackgroundColor="#ccc" />
+                                 Clicked="ShareToolBarItem_Clicked"
+                                 WidthRequest="35"
+                                 HeightRequest="35"
+                                 BackgroundColor="{AppThemeBinding Light=#ccc, Dark=#333}" />
                 </HorizontalStackLayout>
             </StackLayout>
             <!-- Header with cog -->
@@ -71,7 +78,7 @@
                        FontAttributes="Bold"
                        FontFamily="AbhayaLibreM"
                        HorizontalTextAlignment="Center"
-                       TextColor="#222" />
+                       TextColor="{AppThemeBinding Light=#222, Dark=#FFFFFF}" />
             </Grid>
 
 
@@ -79,7 +86,7 @@
             <Label x:Name="contents"
                    Text="{Binding Content}"
                    FontSize="13"
-                   TextColor="#444"
+                    TextColor="{AppThemeBinding Light=#444, Dark=#E1E1E1}"
                    FontFamily=""
                    LineHeight="1.3"
                    HorizontalTextAlignment="Justify" />

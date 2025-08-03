@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MRWMO.QuotesPage"
+              BackgroundColor="#FAFAFA"
+             
+             Title="QuotesPage">
+    <Grid Padding="0">
+        <!-- Header Section -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Modern Header -->
+        <Border Grid.Row="0" 
+                BackgroundColor="White"
+                Padding="24,16,24,20">
+            <Border.Shadow>
+                <Shadow Brush="#10000000" Offset="0,2" Radius="8" Opacity="0.1" />
+            </Border.Shadow>
+            <StackLayout Spacing="4">
+                <Label Text="Daily Inspiration"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#1A1A1A"
+                       HorizontalOptions="Start" />
+                <Label Text="Discover wisdom that moves you"
+                       FontSize="15"
+                       TextColor="#6B7280"
+                       HorizontalOptions="Start" />
+            </StackLayout>
+        </Border>
+
+        <!-- Quotes Collection -->
+        <CollectionView x:Name="QuotesCollectionView" 
+                        Grid.Row="1"
+                        BackgroundColor="Transparent"
+                        SelectionMode="None">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="20,16,20,0" 
+                            Padding="0"
+                            BackgroundColor="White"
+                            StrokeThickness="0">
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16" />
+                        </Border.StrokeShape>
+
+                        <Border.Shadow>
+                            <Shadow Brush="#15000000" 
+                                    Offset="0,4" 
+                                    Radius="16" 
+                                    Opacity="0.08" />
+                        </Border.Shadow>
+
+                        <Grid Padding="24,28,24,20" 
+                              RowDefinitions="Auto,*,Auto" 
+                              RowSpacing="20">
+
+                            <!-- Quote Icon -->
+                            <Label Grid.Row="0"
+                                   Text="&quot;"
+                                   FontSize="48"
+                                   FontAttributes="Bold"
+                                   TextColor="#E5E7EB"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Start"
+                                   Margin="0,-8,0,-12" />
+
+                            <!-- Quote Text -->
+                            <Label Grid.Row="1"
+                                   Text="{Binding FormattedQuote}"
+                                   FontSize="17"
+                                   LineHeight="1.5"
+                                   TextColor="#374151"
+                                   FontFamily="Georgia"
+                                   HorizontalOptions="Fill"
+                                   VerticalOptions="Center"
+                                   Margin="0,0,0,8" />
+
+                            <!-- Action Buttons -->
+                            <Grid Grid.Row="2" 
+                                  ColumnDefinitions="*,Auto,Auto"
+                                  ColumnSpacing="12"
+                                  Margin="0,8,0,0">
+
+                                <!-- Spacer -->
+                                <BoxView Grid.Column="0" IsVisible="False" />
+
+                                <!-- Copy Button -->
+                                <Border Grid.Column="1"
+                                        BackgroundColor="#F9FAFB"
+                                        Padding="16,10"
+                                        StrokeThickness="1"
+                                        Stroke="#E5E7EB">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={x:Reference QuotesCollectionView}, Path=BindingContext.CopyCommand}"
+                                                              CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <Label Text="Copy"
+                                           FontSize="14"
+                                           FontAttributes="Bold"
+                                           TextColor="#6B7280"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center" />
+                                </Border>
+
+                                <!-- Share Button -->
+                                <Border Grid.Column="2"
+                                        BackgroundColor="#3B82F6"
+                                        Padding="16,10">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="8" />
+                                    </Border.StrokeShape>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={x:Reference QuotesCollectionView}, Path=BindingContext.ShareCommand}"
+                                                              CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <Label Text="Share"
+                                           FontSize="14"
+                                           FontAttributes="Bold"
+                                           TextColor="White"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center" />
+                                </Border>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <!-- Bottom padding for last item -->
+            <CollectionView.Footer>
+                <BoxView HeightRequest="24" BackgroundColor="Transparent" />
+            </CollectionView.Footer>
+
+        </CollectionView>
+    </Grid>
+</ContentPage>

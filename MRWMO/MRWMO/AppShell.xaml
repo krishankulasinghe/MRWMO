@@ -1,16 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:MRWMO"
-       x:Class="MRWMO.MainPage"
-       BackgroundColor="Black">
+       x:Class="MRWMO.AppShell"  BackgroundColor="Black">
 
-    <!-- Flyout Header -->
     <Shell.FlyoutHeader>
         <local:HeaderContentView />
     </Shell.FlyoutHeader>
 
-    <!-- Custom Flyout Item Template -->
     <Shell.ItemTemplate>
         <DataTemplate>
             <Grid Padding="10">
@@ -22,22 +19,23 @@
         </DataTemplate>
     </Shell.ItemTemplate>
 
-    <!-- Flyout Items -->
     <FlyoutItem Title="අතහැරීම ලිපි">
         <ShellContent ContentTemplate="{DataTemplate local:Sinhala}" />
     </FlyoutItem>
-   
+
     <FlyoutItem Title="Giving Up Articles">
         <ShellContent ContentTemplate="{DataTemplate local:English}" />
     </FlyoutItem>
 
-    <ShellContent Title="පෙර පැවති ධර්ම දේශනා" ContentTemplate="{DataTemplate local:DhammaDeshana}" />
-    <ShellContent Title="පන්සිල් මළුව" ContentTemplate="{DataTemplate local:PansilMaluwaDeshana}" />
+    <FlyoutItem Title="දේශනා">
+        <ShellContent Title="පෙර පැවති ධර්ම දේශනා" ContentTemplate="{DataTemplate local:DhammaDeshana}" />
+        <ShellContent Title="පන්සිල් මළුව" ContentTemplate="{DataTemplate local:PansilMaluwaDeshana}" />
+    </FlyoutItem>
 
     <FlyoutItem Shell.TabBarIsVisible="False" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Bookmarks" ContentTemplate="{DataTemplate local:BookMarks}" />
         <ShellContent Title="Rate this app" ContentTemplate="{DataTemplate local:AboutUs}" />
-        <!--<ShellContent Title="Quotes" ContentTemplate="{DataTemplate local:QuotesPage}" />-->
+        <ShellContent Title="Quotes" ContentTemplate="{DataTemplate local:QuotesPage}" />
     </FlyoutItem>
 
 </Shell>

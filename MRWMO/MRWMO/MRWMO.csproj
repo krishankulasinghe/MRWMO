@@ -25,7 +25,7 @@
     <ApplicationTitle>MRWMO</ApplicationTitle>
 
     <!-- App Identifier -->
-    <ApplicationId>com.companyname.mrwmo</ApplicationId>
+    <ApplicationId>com.KSoft.maharahathunwadimagaosse</ApplicationId>
 
     <!-- Versions -->
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -44,7 +44,7 @@
 
   <ItemGroup>
     <!-- App Icon -->
-    <MauiIcon Include="Resources\AppIcon\appicon.png" BaseSize="32,32" />
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" BaseSize="96,96"  />
     
     <!-- Splash Screen -->
     <!--<MauiSplashScreen Include="Resources\Splash\splash.png" Color="#000" BaseSize="256,256" />-->
@@ -72,16 +72,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="App-old.xaml.cs">
-      <DependentUpon>App-old.xaml</DependentUpon>
+    <Compile Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Update="MainPage-old.xaml.cs">
-      <DependentUpon>MainPage-old.xaml</DependentUpon>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Resources\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <MauiXaml Update="AppShell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="QuotesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
   </ItemGroup>
 
 </Project>

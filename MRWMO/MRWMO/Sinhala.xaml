@@ -22,63 +22,63 @@
 
                 <StackLayout Grid.Row="0" Grid.Column="0" Margin="20,0,20,0" Spacing="20">
                     <Label
-                        FontAttributes="Bold"
-                        FontSize="18"
-                        FontFamily="AbhayaLibreM"
-                        Text="ඔබ සියල්ල අතහරින්න. එවිට ඔබට සියල්ලම ලැබේවි. සියල්ලම ඔබට ලැබෙන විට ඒ කිසිවක් ඔබට අවශ්‍ය නොවේ. මන්ද, ඔබ සියල්ල අනිත්‍ය වශයෙන් අවබෝධ කර ඇති නිසා.."
-                        TextColor="White"
-                        VerticalOptions="StartAndExpand"
-                        HorizontalOptions="FillAndExpand" />
+                     FontAttributes="Bold"
+                     FontSize="18"
+                     FontFamily="AbhayaLibreM"
+                     Text="ඔබ සියල්ල අතහරින්න. එවිට ඔබට සියල්ලම ලැබේවි.&#10;සියල්ලම ඔබට ලැබෙන විට ඒ කිසිවක් ඔබට අවශ්‍ය නොවේ.&#10;මන්ද,&#10;ඔබ සියල්ල අනිත්‍ය වශයෙන් අවබෝධ කර ඇති නිසා.."
+                     TextColor="White"
+                     VerticalOptions="StartAndExpand"
+                     HorizontalOptions="FillAndExpand" />
                 </StackLayout>
 
                 <Image Grid.Row="0" Grid.Column="1"
-                       HorizontalOptions="EndAndExpand"
-                       Source="ic_thero"
-                       WidthRequest="200" />
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_thero"
+                    WidthRequest="200" />
             </Grid>
 
             <!-- Bottom section -->
             <Border
-                Margin="0,30,0,0"
-                Padding="30,0,30,30"
-                BackgroundColor="White"
-                StrokeShape="RoundRectangle 40,40,0,0"
-                VerticalOptions="FillAndExpand">
+             Margin="0,30,0,0"
+             Padding="30,0,30,30"
+             BackgroundColor="White"
+             StrokeShape="RoundRectangle 40,40,0,0"
+             VerticalOptions="FillAndExpand">
                 <StackLayout>
 
                     <!-- Title -->
                     <Label
-                        Margin="20"
-                        FontAttributes="Bold"
-                        FontSize="30"
-                        HorizontalOptions="CenterAndExpand"
-                        HorizontalTextAlignment="Center"
-                        FontFamily="AbhayaLibreM"
-                        Text="අතහැරීම ලිපි"
-                        TextColor="#333533"
-                        VerticalOptions="Center" />
+                     Margin="20"
+                     FontAttributes="Bold"
+                     FontSize="30"
+                     HorizontalOptions="CenterAndExpand"
+                     HorizontalTextAlignment="Center"
+                     FontFamily="AbhayaLibreM"
+                     Text="අතහැරීම ලිපි"
+                     TextColor="#333533"
+                     VerticalOptions="Center" />
 
                     <!-- CollectionView -->
                     <CollectionView SelectionMode="Single"
-                                    SelectionChanged="CollectionView_SelectionChanged"
-                                    ItemsSource="{Binding .}"
-                                    ItemsLayout="VerticalGrid, 2">
+                                 SelectionChanged="CollectionView_SelectionChanged"
+                                 ItemsSource="{Binding .}"
+                                 ItemsLayout="VerticalGrid, 2">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout Orientation="Vertical"
-                                             BackgroundColor="#FFFFFF"
-                                             Margin="8">
+                                          BackgroundColor="#FFFFFF"
+                                          Margin="8">
                                     <Border
-                                        BackgroundColor="Transparent"
-                                        Padding="0">
+                                     BackgroundColor="Transparent"
+                                     Padding="0">
                                         <Image Source="{Binding Image}" Aspect="AspectFit"  HeightRequest="250"  />
                                     </Border>
                                     <Label Text="{Binding Name}"
-                                           FontSize="13"
-                                           FontFamily="AbhayaLibreM"
-                                           TextColor="#333533"
-                                           HorizontalOptions="Center"
-                                          />
+                                        FontSize="13"
+                                        FontFamily="AbhayaLibreM"
+                                        TextColor="#333533"
+                                        HorizontalOptions="Center"
+                                       />
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>

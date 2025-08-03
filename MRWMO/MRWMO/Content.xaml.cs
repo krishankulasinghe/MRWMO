@@ -103,6 +103,16 @@ namespace MRWMO
             {
                 Application.Current.UserAppTheme = AppTheme.Dark;
             }
+
+            LoadBookmarkStatus();
+            if (cts?.IsCancellationRequested == false)
+            {
+                SetStopButtonColor();
+            }
+            else
+            {
+                SetPlayButtonColor();
+            }
         }
 
         protected override void OnAppearing()
@@ -137,7 +147,16 @@ namespace MRWMO
             }
 
             bool isBookmarked = _bookMarkList?.Any(c => c.BookId == _chapter.BookId && c.Id == _chapter.Id) == true;
-            BookMarkToolBarItem.Source = isBookmarked ? "ic_action_bookmark_black.png" : "ic_action_bookmark_border_black.png";
+            var currentTheme = Application.Current.RequestedTheme;
+            if (currentTheme == AppTheme.Dark)
+            {
+                BookMarkToolBarItem.Source = isBookmarked ? "ic_action_bookmark.png" : "ic_action_bookmark_border.png";
+            }
+            else
+            {
+                BookMarkToolBarItem.Source = isBookmarked ? "ic_action_bookmark_black.png" : "ic_action_bookmark_border_black.png";
+            }
+
         }
 
         private void ToggleSettings_Clicked(object sender, EventArgs e)
@@ -167,16 +186,16 @@ namespace MRWMO
         {
             _bookMarkList ??= new List<Chapter>();
             var existing = _bookMarkList.FirstOrDefault(c => c.BookId == _chapter.BookId && c.Id == _chapter.Id);
-
+            var currentTheme = Application.Current.RequestedTheme;
             if (existing != null)
             {
                 _bookMarkList.Remove(existing);
-                BookMarkToolBarItem.Source = "ic_action_bookmark_border.png";
+                BookMarkToolBarItem.Source = currentTheme == AppTheme.Dark ? "ic_action_bookmark_border.png" : "ic_action_bookmark_border_black.png";
             }
             else
             {
                 _bookMarkList.Add(_chapter);
-                BookMarkToolBarItem.Source = "ic_action_bookmark.png";
+                BookMarkToolBarItem.Source = currentTheme == AppTheme.Dark ? "ic_action_bookmark.png" : "ic_action_bookmark_black.png";
             }
 
             var bookmarksJson = JsonConvert.SerializeObject(_bookMarkList);
@@ -234,6 +253,12 @@ namespace MRWMO
             {
                 var locales = await TextToSpeech.GetLocalesAsync();
                 settings.Locale = locales.FirstOrDefault(c => c.Country == "LK");
+
+                if (settings.Locale == null)
+                {
+                    await DisplayAlert("Error", "Sinhala locale not found. Please check your device settings.", "OK");
+                    return;
+                }
             }
 
             if (cts?.IsCancellationRequested == false)
@@ -243,8 +268,21 @@ namespace MRWMO
             }
 
             cts = new CancellationTokenSource();
-            PlayToolBarItem.Source = "ic_action_stop.png";
+            // PlayToolBarItem.Source = "ic_action_stop.png";
+            SetStopButtonColor();
             await TextToSpeech.SpeakAsync(_chapter.Content, settings, cancelToken: cts.Token);
+        }
+
+        private void SetPlayButtonColor()
+        {
+            var currentTheme = Application.Current.RequestedTheme;
+            PlayToolBarItem.Source = currentTheme == AppTheme.Dark ? "ic_action_play_arrow.png" : "ic_action_play_arrow_black.png";
+        }
+
+        private void SetStopButtonColor()
+        {
+            var currentTheme = Application.Current.RequestedTheme;
+            PlayToolBarItem.Source = currentTheme == AppTheme.Dark ? "ic_action_stop.png" : "ic_action_stop_black.png";
         }
 
         private void CancelSpeech()
@@ -252,7 +290,8 @@ namespace MRWMO
             if (cts?.IsCancellationRequested ?? true) return;
 
             cts.Cancel();
-            PlayToolBarItem.Source = "ic_action_play_arrow.png";
+            SetPlayButtonColor();
+            //PlayToolBarItem.Source = "ic_action_play_arrow.png";
         }
 
         protected override void OnDisappearing() => CancelSpeech();

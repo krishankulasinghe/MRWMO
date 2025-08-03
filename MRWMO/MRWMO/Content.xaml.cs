@@ -32,6 +32,14 @@ namespace MRWMO
         /// </summary>
         private void OnContentTapped(object sender, TappedEventArgs e)
         {
+            // If the settings panel is visible, tapping the content should close it.
+            if (SettingsPanel.IsVisible)
+            {
+                SettingsPanel.IsVisible = false;
+                return; // Exit the method so it doesn't also toggle fullscreen
+            }
+
+            // Otherwise, toggle the fullscreen mode.
             ToggleFullScreen();
         }
 
